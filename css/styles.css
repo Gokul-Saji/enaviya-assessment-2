@@ -368,6 +368,16 @@ svg {
     word-break: break-word;
 }
 
+
+
+@media (max-width: 768px) {
+    .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+}
+
 /* ============================================
    MAIN CONTENT STYLES
    ============================================ */
